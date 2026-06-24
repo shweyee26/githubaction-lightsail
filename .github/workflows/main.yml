@@ -15,5 +15,7 @@ jobs:
           script: |
             echo "This is a test file" > test.txt
             echo "This is a lab file" > lab.txt
+            echo "Welcome to Our CEIT Department" > it.txt
             cat test.txt
             cat lab.txt
+            cat it.txt
