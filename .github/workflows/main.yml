@@ -14,8 +14,6 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             echo "This is a test file" > test.txt
-            echo "Successfully created new file"
-            cat test.txt
             echo "This is lab file" > lab.txt
-            echo "Successfully created new file"
+            cat test.txt
             cat lab.txt
